@@ -2,7 +2,6 @@
 
 Mount a torrent (or magnet link) as a filesystem in real time using [torrent-stream](https://github.com/mafintosh/torrent-stream) and fuse.
 
-AKA MAD SCIENCE!
 
 ```
 npm install -g torrent-mount
@@ -30,15 +29,14 @@ Options:
 After doing that open the same directory using a file browser.
 The files of the torrent should be mounted there now and you should be able to double-click them to start streaming as regular files!
 
-![MIND BLOWN](http://i.imgur.com/C4buo.gif)
 
-## Troubleshoot
+## Troubleshooting
 
 Download the latest osxfuse `dmg` using this link and install it
 
-http://sourceforge.net/projects/osxfuse/files/latest/download?source=files
+https://github.com/osxfuse/osxfuse/releases/latest
 
-The one provided by brew doesn't always seem to work. You also need pkg-config:
+You also need pkg-config:
 
 ```
 brew install pkg-config
